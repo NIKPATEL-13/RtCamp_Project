@@ -1,0 +1,69 @@
+/*body {
+  background-color: #00181F !important;
+  padding: 0 100px;
+}*/
+
+.panel-info,.panel-body {
+    display: none;
+}
+#for_spcific_pic {
+	display:none;
+}
+#main h1 {
+  color: #FFF;
+  font-weight: 100;
+  letter-spacing: 3px;
+  padding: 40px 0 70px;
+}
+
+#main #gallery .gallery-item {
+  height: 300px;
+}
+#main #gallery .gallery-item .album {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#main #gallery .gallery-item .album img {
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  border: 4px solid #FFF;
+  -moz-box-shadow: 0 0 4px black;
+  -webkit-box-shadow: 0 0 4px black;
+  box-shadow: 0 0 4px black;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+ 
+}
+
+#main #gallery .gallery-item .album img:first-child {
+  position: relative;
+  z-index: 1;
+}
+#main #gallery .gallery-item .album img:first-child + img {
+  -moz-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+#main #gallery .gallery-item .album img:last-child {
+  -moz-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+#main #gallery .gallery-item p {
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  padding-top: 20px;
+}
